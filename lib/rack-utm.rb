@@ -6,15 +6,15 @@ module Rack
   #
   class Utm
 
-    COOKIE_SOURCE   = "u_source"
-    COOKIE_MEDIUM   = "u_medium"
-    COOKIE_TERM     = "u_term"
-    COOKIE_CONTENT  = "u_content"
-    COOKIE_CAMPAIGN = "u_campaign"
+    COOKIE_SOURCE   = "utm_source"
+    COOKIE_MEDIUM   = "utm_medium"
+    COOKIE_TERM     = "utm_term"
+    COOKIE_CONTENT  = "utm_content"
+    COOKIE_CAMPAIGN = "utm_campaign"
     
-    COOKIE_FROM     = "u_from"
-    COOKIE_TIME     = "u_time"
-    COOKIE_LP       = "u_lp"
+    COOKIE_FROM     = "utm_from"
+    COOKIE_TIME     = "utm_time"
+    COOKIE_LP       = "utm_lp"
     
     def initialize(app, opts = {})
       @app = app
